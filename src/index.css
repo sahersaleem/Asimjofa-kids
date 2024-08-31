@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+nav{
+ position: sticky;
+}
+.active{
+  color: black;
+  font-weight: bold;
+  transform: all 0.2s ease;
+}
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+}
+  a :not(.active):hover{
+    color: black;
+    font-weight: bold;
+    transform: all 0.2s ease;
+  }
+.first-part{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 14pxpx 20px;
+}
+
+
+.logo img {
+  width: 180px;
+  height: auto;
+}
+
+
+.left-box {
+  display: flex;
+  padding-top: 25px;
+}
+
+.left-box div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+.luxury{
+  width: 100px;
+  height: 10px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.essentials{
+  width: 100px;
+  height: 10px;
+   font-weight: 400;
+  color: black;
+  padding: 20px;
+}
+.essentials:hover{
+  border: 2px solid black;
+  transform: all 0.2s ease;
+}
+
+.react-icons{
+  padding-top: 25px;
+  display: flex;
+  gap: 1rem;
+  font-size: 24px;
+}
+
+
+.second-part ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1.8rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding:10px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+
+& li{
+  text-transform: capitalize;
+}
+}
+
+.section-hero{
+  width: 100vw;
+  height: auto;
+}
+
+.image-container{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: black; */
+  overflow-x: hidden;
+  
+  
+}
+
+.image-container img{
+  width: 500px;
+  height: 750px;
+  object-position: center;
+  object-fit: cover;
+  border: none;
+  border-radius: none;
+  border: 1px solid rgba(29, 29, 29, 0.709);
+
+}
+.image-container img:first-child{
+  width: 500px;
+  height: 750px;
+}
+.image-container img:nth-child(2){
+  width: 520px;
+  height: 750px;
+  object-position: center;
+  object-fit: cover;
+ 
+}
+
+
+
+
+.card-container{
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100vw;
+  height:30vh;
+  padding: 10px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.card img{
+  width: 180px;
+  height: auto;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card-text{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+
+  & a {
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+  }
+  & a:hover{
+    color: black;
+    font-weight: bold;
+  }
+}
+
+.card-main-text{
+  width: 200px;
+  height: 200px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+   
+}
+
+.third-section{
+  margin-top: 40px;
+  padding: 20px;
+}
+.third-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.third-nav a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+}
+  a:hover{
+    color: black;
+    font-weight: bold;
+    transform: all 0.2s ease;
+  }
+
+  .cart-div{
+    margin-top: 20px;
+  }
+  .cart-image {
+    width: 330px;
+    height: auto;
+    position: relative;
+
+  }
+
+  .cart-image img{
+    width: 100%;
+    height: 100%;
+  }
+ .img2{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.img2:hover{
+  opacity: 1;
+}
+
+
+.other-pages{
+  width: 100vw;
+  height: 120vh;
+}
+
+
+
+.cart-container{
+  
+  padding:0px 20px;  
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+
+.cart-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.cart-content button{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.cart-content .bold{
+  font-weight: 700;
+}
+
+.cart-text{
+  font-family: "Montserrat", sans-serif;
+
+}
+
+
+.fourth-section{
+  margin-top: 20px;
+  width: 100vw;
+  height:210vh;
+  padding: 20px;
+
+}
+.fourth-section-image-container{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cent-heading{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 40px;
+  font-size: 62px;
+}
+
+
+.fourth-section-image-container img{
+  width: 700px;
+  height: 800px;
+}
+.second-img-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.second-img-container img{
+  width: 500px;
+  height: 500px;
+
+}
+.fifth-sec{
+  width: 100vw;
+  height: 150vh;
+}
+.fifth-section-image{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+& img{
+  width: 450px;
+  height: 450px;
+}
+}
+
+
+.footer{
+  width: 100vw;
+  height: 60vh;
+  background-color:whitesmoke;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 80px 40px;
+  justify-content: space-between;
+  
+}
+
+.col h1{
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.col a {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif; 
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+
+}
+
+.col p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif; 
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+}
+
+.col a:hover{
+  color: #000;
+  font-weight: 300;
+}
+.col input{
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+}
+.col button{
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background-color: #000;
+  color: white;
+  margin-left: -20px;
+}
+
+
+.second-fifth-section{
+  margin-top: 60px;
+  
+}
+
+.second-fifth-section img{
+  width: 350px;
+  height: 350px;
+}
+.fifth-section-image:nth-child(2){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-pages .card-container{
+  margin-top: 40px;
+}
+
+.image-container {
+  background-image: url('https://asimjofa.com/cdn/shop/files/Web-Banner_918e5f77-16fc-4b1c-a2ff-be5a3634c42b.jpg?v=1724822315&width=2000');
+  background-repeat: no-repeat;
+  animation:gallery 25s linear infinite;
+  background-size: contain;
+}
+@keyframes gallery {
+  0%{
+    background-image: url('https://asimjofa.com/cdn/shop/files/Web-Banner_1_96b586a6-2ec1-4ed7-8e1e-c649f1c48600.jpg?v=1724928776');
+  }
+  20%{
+    background-image: url('https://asimjofa.com/cdn/shop/files/Web-Banner_1cc9dad5-b6e4-485e-917b-de9c2931aee5.jpg?v=1724822361&width=2000');
+  }
+  60%{
+    background-image: url('https://asimjofa.com/cdn/shop/files/Afsanay_Web_Banner_7.jpg?v=1724822399&width=2000');
+  }
+  80%{
+    background-image: url('https://asimjofa.com/cdn/shop/files/Web-Banner_1cc9dad5-b6e4-485e-917b-de9c2931aee5.jpg?v=1724822361&width=2000');
+  }
+100%{
+ background-image:  url('https://asimjofa.com/cdn/shop/files/Web-Banner_918e5f77-16fc-4b1c-a2ff-be5a3634c42b.jpg?v=1724822315&width=2000');
+}
+
+}
+
+.third-section .cart-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:1100px){
+a{
+  font-size: 12px;
+}
+.col a{
+  font-size: 12px;
+}
+.section-hero{
+  width: 100vw;
+  height: 70vh;
+}
+.card img{
+  width: 100px;
+  height: auto;
+}
+.card-text{
+  white-space: nowrap;
+}
+.card-container{
+  height: 20vh;
+  padding: 0px 20px;
+}
+.card-main-text{
+  font-size: 20px;
+}
+.third-section a{
+  font-size: 12px;
+}
+.cart-container{
+  margin-top: 0px;
+  height: 60vh;
+  gap: 1.8rem;
+}
+
+.cart-div{
+  width: 200px;
+}
+.cart-image {
+width: 200px;
+height: auto;
+}
+.cart-text p{
+  font-size: 12px;
+}
+
+.cart-div .btn{
+  font-size: 8px;
+  padding: 8px 2px;
+}
+
+.fourth-section-image-container img{
+  width: 450px;
+  height: 500px;
+}
+.cent-heading{
+  font-size: 47px;
+}
+
+.second-img-container img{
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+}
+
+.fourth-section{
+  height: 150vh;
+}
+
+.fifth-section-image img{
+  width: 220px;
+  height: 220px;
+}
+.fifth-sec{
+  height: 100vh;
+}
+.btn button{
+  padding: 7px 4px;
+}
+
+
+}
+
+
+
+
+
+@media (max-width:800px){
+  .section-hero{
+    height: 50vh;
+  }
+  .cart-container{
+    flex-wrap: wrap;
+  }
+  .third-section{
+    height: 120vh;
+  }
+  .card-container{
+    flex-wrap: wrap;
+    height: 50vh;
+    
+  }
+  .third-section a {
+    font-size: 7px;
+    white-space: nowrap;
+  }
+  .fourth-section{
+    height: 120vh;
+  }
+  .fourth-section-image-container img{
+    width: 300px;
+    height: 350px;
+  }
+  .fifth-section-image img{
+    width: 150px;
+    height: 150px;
+  }
+  .second-img-container img{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+  }
+  .react-icons{
+    font-size: 16px;
+  }
+  
+}
+
+
+
+
+
+
+@media (max-width:700px){
+.logo img{
+  width: 70px;
+  height: auto;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  font-size: 7px;
+}
+.col a{
+  font-size: 7px;
+}
+.col h1{
+  font-size: 10px;
+}
+.col p {
+  font-size: 7px;
+}
+.col input{
+  padding: 7px;
+}
+.footer {
+height: 40vh;
+
+& .btn{
+  padding: 7px 4px;
+  margin-left: 20px;
+  margin-top: 20px;
+}}
+}
+
+
+@media (max-width:500px){
+.second-fifth-section .fifth-section-image{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fifth-section-image{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fifth-sec{
+  height: 130vh;
+}
+.card-container{
+  height: 75vh;
+}
+.section-hero{
+  height: 25vh;
+}
+.third-section{
+  height: 230vh;
+}
+.fourth-section-image-container{
+  flex-direction: column-reverse;
+}
+.fourth-section{
+  height: 230vh;
+}
+.second-img-container{
+  flex-direction: column;
+}
+.cent-heading{
+  font-size: 36px;
+}
+a{
+  font-size: 6px;
+  white-space: nowrap;
+}
+.col a{
+  font-size: 7px;
+}
+.luxury{
+  font-size: 12px;
+  padding-top: 12px;
+  padding-bottom: 9px;
+}
+.essentials{
+  font-size: 12px;
+  padding-top: 12px;
+  padding-bottom: 9px;
+}
+.react-icons{
+  font-size: 7px;
+}
+.logo{
+  padding-top: 15px;
+}
+
+.card-container {
+  height: 95vh;
+}
+.footer{
+  padding: 40px 4px;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+input{
+  width: 100px;
+}
+.other-pages{
+  width: 100vw;
+  height: 330vh;
+}
+.other-pages .card-container {
+  height: 51vh;
+}
+.kids{
+  height: 260vh;
+}
+}
+@media (max-width:400px){
+  .react-icons{
+    padding-top: 34px;
+  }
+  .col a,p {
+    font-size: 4px;
+  }
+  .other-pages .card-container{
+    height: 72vh;
+  }
+  a{
+    font-size: 3px;
+  }
+  .third-section a{
+    font-size: 4px;
+  }
+}
