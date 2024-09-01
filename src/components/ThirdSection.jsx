@@ -11,7 +11,6 @@ const ThirdSection = () => {
         <NavLink to={'/chamkeeli'}>Chamkeeli</NavLink>
         <NavLink to={'/asimjofakids'}>Asim Jofa kids</NavLink>
         <NavLink to={'/afsanay'}>Afsanay-luxury pret</NavLink>
-        <NavLink to={'/pyardiagallan'}>Pyar dia gallan</NavLink>
        
       </div>
       

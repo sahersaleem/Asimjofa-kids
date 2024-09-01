@@ -9,11 +9,6 @@ const Footer = () => {
     <div className="footer">
       <div className="col">
         <h1>Contact US</h1>
-        <a href="/">Email Us: sales@asimjofa.com</a>
-        <a href="/">Call Us: +92-21-111-11JOFA (5632)</a>
-        <a href="/">Whatsapp Us: +923211244440</a>
-        <a href="/">Contact Us</a>
-        <a href="/">FAQs</a>
         <div className="react-icons">
           <FaFacebookF/>
           <FaTwitter/>
@@ -21,7 +16,13 @@ const Footer = () => {
           <FaPinterest/>
 
         </div>
-      </div>
+      
+        <a href="/">Email Us: sales@asimjofa.com</a>
+        <a href="/">Call Us: +92-21-111-11JOFA (5632)</a>
+        <a href="/">Whatsapp Us: +923211244440</a>
+        <a href="/">Contact Us</a>
+        <a href="/">FAQs</a>
+     </div>
       <div className="col">
         <h1>Customer Care</h1>
         <a href="/">My Account</a>
