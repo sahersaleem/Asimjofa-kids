@@ -564,8 +564,20 @@ a:hover {
     padding: 20px 40px;
   }
 }
+.resp{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30rem;
+}
+.resp-logo{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 3rem; */
+  align-items: center;
+  width: 60vw;
+  overflow-x: hidden;
 
-
+}
 @media (max-width: 700px) {
   .logo img {
     width: 70px;
@@ -702,9 +714,11 @@ a:hover {
 }
 
 @media (max-width: 400px) {
+  .fifth-sec{
+    padding-top: 41px;
+  }
   .first-part {
     width: 100vw;
-    height: 16vh;
     background-color: white;
     flex-direction: column;
   }
@@ -719,6 +733,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    gap: 0rem;
   }
 
   .react-icons {
@@ -738,6 +753,7 @@ a:hover {
   .card-main-text {
     width: 200px;
     height: 150px;
+    padding-top: 72px;
   }
   .card-text a {
     font-size: 12px;
@@ -768,6 +784,7 @@ a:hover {
     border: none;
     font-size: 20px;
     background-color: white;
+
   }
   .second-part {
     visibility: hidden;
@@ -784,5 +801,8 @@ a:hover {
       justify-content: center;
       align-items: center;
     }
+  }
+  .other-pages .card-container{
+    margin-top: 0px;
   }
 }

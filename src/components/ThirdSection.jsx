@@ -8,7 +8,7 @@ const ThirdSection = () => {
   return (
     <div className='third-section'>
       <div className='third-nav'>
-        <NavLink to={'/chamkeeli'}>Chamkeeli</NavLink>
+        <NavLink to={''}>Chamkeeli</NavLink>
         <NavLink to={'/asimjofakids'}>Asim Jofa kids</NavLink>
         <NavLink to={'/afsanay'}>Afsanay-luxury pret</NavLink>
        

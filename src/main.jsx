@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <Main />,
         children:[
           {
-            path:"/chamkeeli",
+            path:"",
             element:<Chamkeeli/>
           },
           {
