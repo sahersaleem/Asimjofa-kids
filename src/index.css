@@ -565,6 +565,7 @@ a:hover {
   }
 }
 
+
 @media (max-width: 700px) {
   .logo img {
     width: 70px;
@@ -700,7 +701,7 @@ a:hover {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .first-part {
     width: 100vw;
     height: 16vh;
